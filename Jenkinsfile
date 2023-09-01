@@ -3,8 +3,8 @@ pipeline {
       stages {
             stage('Init') {
                   steps {
-                        echo 'Hi, this is Anshul from LevelUp360'
-                        echo 'We are Starting the Testing'
+                        echo 'Hi, this is Johnson from LevelUp360'
+                        echo 'The Test will start soon'
                   }
             }
             stage('Build') {
@@ -14,7 +14,7 @@ pipeline {
             }
             stage('Deploy') {
                   steps {
-                        echo "Deploying in Staging Area"
+                        echo "Deploying in Staging Area - TOMCAT"
                   }
             }
             stage('Deploy Production') {
