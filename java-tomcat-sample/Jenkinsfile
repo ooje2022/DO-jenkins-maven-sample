@@ -14,7 +14,7 @@ pipeline {
                     archiveArtifacts artifacts: '**/*.war'
                 }
             }
-    stage('Deploy in Staging Area'){
+   	    stage('Deploy in Staging Area') {
 	    	build job: 'ashul-deploy-app-staging-env'
 	    }
         }
